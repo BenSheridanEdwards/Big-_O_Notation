@@ -8,18 +8,6 @@ Big O Notation tells us how long our algorithm takes to run. It allows us to **c
 
 <i>With Big O notation, we're expressing the runtime in terms of <b>how quickly it grows relative to the input, as the input gets arbitrarily large</b></i>
 
-### Implied Worst Case
-
-When talking about algorithms with Big O Notation we think about the worst case scenario it could face. 
-
-#### Needle in a haystack
-
-Imagine you're trying to find a needle in an array haystack, in the best case you find the needle immediately at position 1 in the array, in which case the algorithm would be O(1), Constant time. The worst case however would be that you find the needle on the last position on the array, meaning you'd have to check every position on the array to find your needle, so in the worst case instead of O(1) constant time, it would be O(n) linear time. 
-
-So we'd say the example below is O(n) linear time.
-
-![](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-WorstCaseExample.png)
-
 ## Examples
 
 ### Constant Time, O(1)
@@ -38,6 +26,18 @@ So we'd say the example below is O(n) linear time.
 ![](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-Graph.png)
 
 ## Caveats
+
+### Implied Worst Case
+
+When talking about algorithms with Big O Notation we think about the worst case scenario it could face. 
+
+#### Needle in a haystack
+
+Imagine you're trying to find a needle in an array haystack, in the best case you find the needle immediately at position 1 in the array, in which case the algorithm would be O(1), Constant time. The worst case however would be that you find the needle on the last position on the array, meaning you'd have to check every position on the array to find your needle, so in the worst case instead of O(1) constant time, it would be O(n) linear time. 
+
+So we'd say the example below is O(n) linear time.
+
+![](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-WorstCaseExample.png)
 
 ### The input could be an array or integer, both in the examples below, run in constant time.
 ![](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-ConstantTimeExample-InputCaveat.png)
