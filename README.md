@@ -1,6 +1,6 @@
 # Big O Notation
 
-Summary of what i've learnt about Big O Notation
+Summary of what I've learnt about Big O Notation
 
 ## Theory
 
@@ -18,7 +18,7 @@ Imagine you're trying to find a needle in an array haystack, in the best case yo
 
 So we'd say the example below is O(n) linear time.
 
-![]()
+![](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-WorstCaseExample.png)
 
 ## Examples
 
@@ -42,4 +42,5 @@ So we'd say the example below is O(n) linear time.
 ### The input could be an array or integer, both in the examples below, run in constant time.
 ![](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-ConstantTimeExample-InputCaveat.png)
 
+### Things to keep in mind
 - It's hard to pin down the exact runtime of an algorithm, it depends on variables such as the speed of the processer, what's already running on the computer etc. So instead of talking about runtime directly, **we use Big O Notation to express how quickly the runtime grows**. 
