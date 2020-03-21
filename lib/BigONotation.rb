@@ -33,3 +33,17 @@ def pritn_all_possible_ordered_pairs(items)
   end
 end
 
+
+
+# Both the examples below have constant time, O(n) 
+# You can see N could be the actual input, or the size of the input
+
+def say_hi_n_times(n)
+  n.times { puts "hi" } # Notice the input is directly proportional to the number of times "hi" is printed
+end
+
+def print_all_items(items)
+  items.each do |item| # And here the size of the array is directly proportional to the number of items printed
+    puts item
+  end
+end
