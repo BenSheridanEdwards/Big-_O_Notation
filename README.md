@@ -39,7 +39,7 @@ So we'd say the example below is O(n) linear time.
 
 ![](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-WorstCaseExample.png)
 
-### The input could be an array or integer, both in the examples below, run in constant time.
+### The input could be an array or integer. Both examples below run in O(1), constant time.
 ![](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-ConstantTimeExample-InputCaveat.png)
 
 ### Things to keep in mind
