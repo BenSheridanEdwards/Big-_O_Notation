@@ -1,4 +1,4 @@
-# Big_O_Notation
+# Big O Notation
 
 Summary of what i've learnt about Big O Notation
 
