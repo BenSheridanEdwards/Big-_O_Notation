@@ -23,7 +23,7 @@ Big O Notation tells us how long our algorithm takes to run. It allows us to **c
 
 ### Big O Notation Graph
 
-![]()
+![](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-Graph.png)
 
 ## Caveats
 
