@@ -34,7 +34,6 @@ def pritn_all_possible_ordered_pairs(items)
 end
 
 
-
 # Both the examples below have constant time, O(n) 
 # You can see N could be the actual input, or the size of the input
 
@@ -46,4 +45,15 @@ def print_all_items(items)
   items.each do |item| # And here the size of the array is directly proportional to the number of items printed
     puts item
   end
+end
+
+
+def contains(haystack, needle)
+
+  # Check the haystack for the needle
+  haystack.each do |value|
+    return true if value == needle
+  end
+
+  false
 end
