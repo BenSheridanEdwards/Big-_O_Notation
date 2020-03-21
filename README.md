@@ -25,4 +25,4 @@ Big O Notation tells us how long our algorithm takes to run. It allows us to com
 ## Caveats
 
 ### The input could be an array or integer, both in the examples below, run in constant time.
-![]()
+![](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-ConstantTimeExample-InputCaveat.png)
