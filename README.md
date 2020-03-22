@@ -25,6 +25,14 @@ Big O Notation tells us how long our algorithm takes to run. It allows us to **c
 
 ![](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-Graph.png)
 
+### That's Time, now Space. 
+
+When optimizing for using less memory, you're usually doing this is addiion to optimizing for using less time.
+
+Talking about memory cost (or 'Space Complexity') is similar to talking about time cost (or 'Time Complexity).
+
+To understand our memory cost we look at the total size (relative to the size of the input) of any new variables we're allocating to memory.
+
 ## Caveats
 
 ### Implied Worst Case
