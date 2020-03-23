@@ -25,7 +25,7 @@ end
 # This is quadratic time, O(n²)
 # Quadratic time is where the n is multipled by itself as the input grows.
 
-def pritn_all_possible_ordered_pairs(items)
+def print_all_possible_ordered_pairs(items)
   items.each do |first_item|
     items.each do |second_item|
       puts first_item, second_item
