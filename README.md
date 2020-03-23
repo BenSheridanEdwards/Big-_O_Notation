@@ -6,7 +6,7 @@ Summary of what I've learnt about Big O Notation
 
 Big O Notation tells us how long our algorithm takes to run. It allows us to **compare efficency in different algorithms that solve the same problem**.
 
-<i>With Big O notation, we're expressing the runtime in terms of <b>how quickly it grows relative to the input, as the input gets arbitrarily large</b></i>
+With Big O notation, we're expressing the runtime in terms of <b>how quickly it grows relative to the input, as the input gets arbitrarily large</b>
 
 ## Examples
 
