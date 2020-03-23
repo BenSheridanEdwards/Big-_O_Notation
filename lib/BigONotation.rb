@@ -41,7 +41,7 @@ def say_hi_n_times(n)
   n.times { puts "hi" } # Notice the input is directly proportional to the number of times "hi" is printed
 end
 
-def print_all_items(items)
+def print_all_items(items)g
   items.each do |item| # And here the size of the array is directly proportional to the number of items printed
     puts item
   end
