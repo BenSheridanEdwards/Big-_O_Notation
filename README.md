@@ -11,19 +11,19 @@ With Big O notation, we're expressing the runtime in terms of <b>how quickly it 
 ## Time Examples
 
 ### Constant Time, O(1)
-![](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-ConstantTimeExample.png)
+![Constant Time Example](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-ConstantTimeExample.png)
 
 
 ### Linear Time, O(n)
-![](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-LinearTimeExample.png)
+![Linear Time Example](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-LinearTimeExample.png)
 
 
 ### Quadratic Time, O(n²)
-![](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-QuadraticTimeExample.png)
+![Quadratic Time Example](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-QuadraticTimeExample.png)
 
 ### Big O Notation Graph
 
-![](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-Graph.png)
+![Big O Graph](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-Graph.png)
 
 ## That's Time, now Space. 
 
@@ -37,19 +37,19 @@ To understand our memory cost we look at the total size (relative to the size of
 
 ### Constant Space, O(1)
 
-![Constant Space Example]()
+![Constant Space Example](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-ConstantSpaceExample.png)
 
 Here we use a fixed number of variables, which leads to "hello world!" being printed a set amount of times. 
 
 ### Linear Space, O(n)
 
-![Linear Space Example]()
+![Linear Space Example](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-LinearSpaceExample.png)
 
 Here the size of the hello_world_array scales with the size of the input.
 
 ### Quadratic Space, O(n²)
 
-![Quadratic Space Example]()
+![Quadratic Space Example](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-QuadraticSpaceExample.png)
 
 Here we're adding "hello world" twice to the hello_world_array. So the additional space grows twice as fast as the input. Meaning if the input were 10, the number of "hello world" strings added to our array would be 100.
 
