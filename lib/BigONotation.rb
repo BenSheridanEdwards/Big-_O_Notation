@@ -57,3 +57,31 @@ def contains(haystack, needle)
 
   false
 end
+
+
+# This is Constant Space, O(1).
+# Additional space is minimal here, since the integer is fixed.
+
+def hello_world_n_times(n)
+  n.times { puts "hello world!" }
+end
+
+
+# This is Linear space, O(n).
+# Additional space is taken up in proportion to the size of the input.
+
+def hello_world_array_n_times(n)
+  hello_world_array = []
+  n.times { hello_world_array.push("hello world!") }
+  hello_world_array
+end
+
+
+# This is Quadratic space, O(n²).
+# Additional space is taken up in proportion to the size of the input². 
+def hello_world_array_n_times(n)
+  hello_world_array = []
+  n.times { n.times { hello_world_array.push("hello world!") } }
+  hello_world_array
+end
+  
