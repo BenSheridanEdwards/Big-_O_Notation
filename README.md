@@ -2,13 +2,13 @@
 
 Summary of what I've learnt about Big O Notation
 
-## Theory
+## Big O Theory
 
 Big O Notation tells us how long our algorithm takes to run. It allows us to **compare efficency in different algorithms that solve the same problem**.
 
 With Big O notation, we're expressing the runtime in terms of <b>how quickly it grows relative to the input, as the input gets arbitrarily large</b>
 
-## Examples
+## Time Examples
 
 ### Constant Time, O(1)
 ![](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-ConstantTimeExample.png)
@@ -25,13 +25,37 @@ With Big O notation, we're expressing the runtime in terms of <b>how quickly it 
 
 ![](https://github.com/BenSheridanEdwards/Big_O_Notation/blob/master/media/BigONotation-Graph.png)
 
-### That's Time, now Space. 
+## That's Time, now Space. 
 
-When optimizing for using less memory, you're usually doing this is addiion to optimizing for using less time.
+When optimizing for using less memory, you're usually doing this is addition to optimizing for using less time.
 
 Talking about memory cost (or 'Space Complexity') is similar to talking about time cost (or 'Time Complexity).
 
 To understand our memory cost we look at the total size (relative to the size of the input) of any new variables we're allocating to memory.
+
+## Space Examples
+
+### Constant Space, O(1)
+
+![Constant Space Example]()
+
+Here we use a fixed number of variables, which leads to "hello world!" being printed a set amount of times. 
+
+### Linear Space, O(n)
+
+![Linear Space Example]()
+
+Here the size of the hello_world_array scales with the size of the input.
+
+### Quadratic Space, O(n²)
+
+![Quadratic Space Example]()
+
+Here we're adding "hello world" twice to the hello_world_array. So the additional space grows twice as fast as the input. Meaning if the input were 10, the number of "hello world" strings added to our array would be 100.
+
+### About Space Complexity
+
+When we talk about space complexity, **we're talking about additional space**. Not including the space taken up by the inputs. Sometimes there's a tradeoff between saving time and saving space. So we have to decide which one to optimize for. 
 
 ## Caveats
 
